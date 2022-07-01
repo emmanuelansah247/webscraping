@@ -19,8 +19,8 @@ def mainRun():
         options.add_argument("--headless")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--no-sandbox")
-        # driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=options)
-        driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),chrome_options=options)
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=options)
+        #driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),chrome_options=options)
         driver.get("https://tympanus.net/codrops/author/crnacura/")
 
         try: 

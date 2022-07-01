@@ -1,0 +1,63 @@
+body{
+    background-color: #ddd;
+    padding: 5%;
+}
+
+.section-container{
+    padding: 5%;
+    font-size: 14px;
+}
+
+.section-container .author-name span:nth-child(1),
+.section-container .author-profile-link span:nth-child(1),
+.section-container .author-github-link span:nth-child(1),
+.section-container .author-github-stars span:nth-child(1)
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.section-container .author-name span:nth-child(2),
+.section-container .author-profile-link span:nth-child(2),
+.section-container .author-github-link span:nth-child(2),
+.section-container .author-github-stars span:nth-child(2){
+    font-size: 17px;
+    font-weight: normal;
+}
+
+table{
+    margin: 0px 0px 20px 0px;
+}
+
+table tr td{
+    padding: 5px 5px;
+    border: 1px solid #000;
+}
+
+table tr td.sub-title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.form{
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.form select{
+    margin: 0 5px;
+}
+
+.form button{
+    margin: 10px 5px;
+}
+
+.form .refresh{
+    background-color: #000;
+    padding: 5px 5px;
+    color: #fff;
+    text-decoration: none;
+}

@@ -22,7 +22,11 @@ This project scraps the website https://tympanus.net/codrops/author/crnacura/ an
     
        pip install virtualenv
        
-3. You can activate the virtual environment (you need to install virtualenv)
+3. Create a virtual environment ( or you can use the one in the repository (the name of the virtual environment folder is "venv")) 
+
+    To create the virtual environment, type
+    
+       virtualenv venv
 
     To activate the virtual environment, navigate to the folder of the project and type
     
